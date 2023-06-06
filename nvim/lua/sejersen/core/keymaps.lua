@@ -60,3 +60,5 @@ keymap.set("n", "<leader>u", ":UndotreeToggle<CR>")
 -- Vimtex
 keymap.set("n", "<leader>lc", ":VimtexCompile<CR>")
 
+-- Zen-mode
+keymap.set("n", "<leader>z", ":ZenMode<CR>")

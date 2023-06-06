@@ -34,6 +34,7 @@ return packer.startup(function(use)
     -- colorschemes
     use("bluz71/vim-nightfly-guicolors")
     use("sainnhe/everforest")
+    use { "catppuccin/nvim", as = "catppuccin" }
 
     use("christoomey/vim-tmux-navigator") -- tmux & split window navigation
 
@@ -84,6 +85,8 @@ return packer.startup(function(use)
     -- VimBeGoodGame by ThePrimeage
     use("ThePrimeagen/vim-be-good")
 
+    use("folke/zen-mode.nvim")
+
     -- undo tree
     use("mbbill/undotree")
 
@@ -102,10 +105,12 @@ return packer.startup(function(use)
     -- vimTex
     use("lervag/vimtex")
 
+    -- color tags on hex colors
+    use("ap/vim-css-color")
+
     -- git integration
     use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
-
-    use("tpope/vim-fugitive")
+    use("tpope/vim-fugitive") -- git commands within nvim with :G
 
     if packer_bootstrap then
         require("packer").sync()

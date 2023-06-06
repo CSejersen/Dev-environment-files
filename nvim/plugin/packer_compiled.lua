@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/Users/sejersen/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  catppuccin = {
+    loaded = true,
+    path = "/Users/sejersen/.local/share/nvim/site/pack/packer/start/catppuccin",
+    url = "https://github.com/catppuccin/nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/sejersen/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -216,6 +221,11 @@ _G.packer_plugins = {
     path = "/Users/sejersen/.local/share/nvim/site/pack/packer/start/vim-be-good",
     url = "https://github.com/ThePrimeagen/vim-be-good"
   },
+  ["vim-css-color"] = {
+    loaded = true,
+    path = "/Users/sejersen/.local/share/nvim/site/pack/packer/start/vim-css-color",
+    url = "https://github.com/ap/vim-css-color"
+  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/Users/sejersen/.local/share/nvim/site/pack/packer/start/vim-fugitive",
@@ -245,6 +255,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/sejersen/.local/share/nvim/site/pack/packer/start/vimtex",
     url = "https://github.com/lervag/vimtex"
+  },
+  ["zen-mode.nvim"] = {
+    loaded = true,
+    path = "/Users/sejersen/.local/share/nvim/site/pack/packer/start/zen-mode.nvim",
+    url = "https://github.com/folke/zen-mode.nvim"
   }
 }
 
